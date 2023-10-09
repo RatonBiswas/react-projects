@@ -6,7 +6,15 @@ export const links = [
 ];
 
 export const projects = [
-  {
+  { 
+    id: nanoid(),
+    img: "https://github.com/RatonBiswas/redux-talent-hunting/assets/32263412/d2f5388f-2cd3-44e7-a1ac-23df7c7e7109",
+    url: "https://rm-talent-hunting.netlify.app",
+    github: "https://github.com/RatonBiswas/redux-talent-hunting",
+    title: "Talent Hunting",
+    text: "It basically simple app using react and redux toolkit, which development for job finder people ,People who are already applying for jobs and easily track them, how many jobs are pending, interviews and rejections, you can change all statuses, and see some features like bar charts and area charts.",
+  },
+  { 
     id: nanoid(),
     img: "https://github.com/RatonBiswas/react-projects/assets/32263412/8ac878f1-be15-428c-bb4e-33910869d12e",
     url: "https://birthday-people.netlify.app",
