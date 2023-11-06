@@ -8,6 +8,14 @@ export const links = [
 export const projects = [
   { 
     id: nanoid(),
+    img: "https://github.com/RatonBiswas/image-gallery/assets/32263412/924de867-762b-4f13-9126-5b9a4c461ea8",
+    url: "https://ir-image-gallery.netlify.app/",
+    github: "https://github.com/RatonBiswas/image-gallery",
+    title: "Image Gallery",
+    text: "This is simple web application where user can add images , delete single image and multiple , can sorting or move functionality at the canvas area and all data will save in local storage so that when the user reloads the page it will resume the page at the same state.",
+  },
+  { 
+    id: nanoid(),
     img: "https://github.com/RatonBiswas/redux-talent-hunting/assets/32263412/d2f5388f-2cd3-44e7-a1ac-23df7c7e7109",
     url: "https://rm-talent-hunting.netlify.app",
     github: "https://github.com/RatonBiswas/redux-talent-hunting",
